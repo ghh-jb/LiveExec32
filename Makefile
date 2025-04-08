@@ -10,7 +10,7 @@ APPLICATION_NAME = LiveExec32
 
 LiveExec32_FILES = \
   main.cpp arm_dynarmic_cp15.cpp dynarmic.cpp filesystem.cpp variables.cpp ap_getparents.cpp \
-  bridge.mm bridge.s log.m \
+  bridge.mm bridge.s log.mm \
   HostFrameworks/Foundation/Foundation.mm \
   HostFrameworks/CoreGraphics/CoreGraphics.mm \
   HostFrameworks/UIKit/UIKit.mm
