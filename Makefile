@@ -1,5 +1,5 @@
 ARCHS := arm64
-TARGET := iphone:clang:latest:16.0
+TARGET := iphone:clang:16.2:15.2
 #TARGET_CODESIGN = fastPathSign
 PACKAGE_FORMAT := ipa
 
