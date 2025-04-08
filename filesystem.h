@@ -4,7 +4,7 @@
 #include <map>
 #include <string>
 
-extern "C" void ap_getparents(char *name);
+extern "C++" void ap_getparents(char *name);
 
 using namespace std;
 class LC32Filesystem {
