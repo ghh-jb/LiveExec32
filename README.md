@@ -7,6 +7,8 @@ This project is heavily based on [unidbg](https://github.com/zhkl0228/unidbg).
 
 There are also missing syscalls that I have yet to provide to pass through. Please see [ARM32SyscallHandler.java](https://github.com/zhkl0228/unidbg/blob/master/unidbg-ios/src/main/java/com/github/unidbg/ios/ARM32SyscallHandler.java) and [DarwinSyscallHandler.java](https://github.com/zhkl0228/unidbg/blob/master/unidbg-ios/src/main/java/com/github/unidbg/ios/DarwinSyscallHandler.java) to implement them properly.
 
+>>ghh-jb: I will NOT create PR to original repo as it is possible that I broke some functionality of this project while fixing build erorrs, I have NOT tested it. 
+
 ## Usage
 - Download and extract a ramdisk image using pzb and xpwn. For example, I chose the last 32-bit iPhone (armv7s) on the latest iOS 10.3.3:
 ```bash
